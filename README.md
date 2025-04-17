@@ -8,4 +8,4 @@ The aim of this project is to build a reliable machine learning pipeline for pre
 4. Selecting the best-performing model based on AUC score
 5. Building an API using FastAPI to be deployed over cloud.
 
-![Top Important Features](imm/output.png)
+![Top Important Features](img/output.png)
