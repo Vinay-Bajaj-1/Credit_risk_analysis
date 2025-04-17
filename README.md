@@ -1,25 +1,11 @@
 
 **Aim** 
 
-To develop a machine learning model to analyze Lending Club loan data, identifying patterns and creating a predictive model for _approved loans only_ which will help the company to better understand their customer status whether they will be able to repay the loan or not.
+The aim of this project is to build a reliable machine learning pipeline for predicting loan default using structured financial data. The objective includes:
+1. Performing data preprocessing and exploratory data analysis (EDA).
+2. Handling missing values and data imbalance
+3. Training and tuning multiple classification models including Random Forest, XGBoost, and Artificial Neural Network (ANN)
+4. Selecting the best-performing model based on AUC score
+5. Building an API using FastAPI to be deployed over cloud.
 
-
-**About Company** 
-
-LendingClub is a financial services company headquartered in San Francisco, California. It was the first peer-to-peer lender to register its offerings as securities with the Securities and Exchange Commission, and to offer loan trading on a secondary market.
-
-**Steps** 
-1. Problem Statement
-2. Data Understanding
-3. Explorately Data Analysis
-4. Modelling
-5. Model Comparisons
-
-**Model outputs**
-NN :             [train : 70.06%, test : 71.14]
-XGBoost :        [train :79.01% , test : 81%]
-Random Forest :  [train : 78.5%, test : 80.27%]
-
-**Result**
-After modelling we found out that XG Boost performed better than other models with 81% accuracy on test data.
-
+![Top Important Features](imm/output.png)
